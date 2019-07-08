@@ -455,7 +455,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 639003912}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.17, y: 0.97706044, z: -0.076171875}
+  m_LocalPosition: {x: 3.17, y: 1.67, z: -0.076171875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -956,6 +956,20 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 50237160024154934, guid: 6df2195a005c18d478f782ec53cd3252,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1068305759639544, guid: 6df2195a005c18d478f782ec53cd3252, type: 2}
+      propertyPath: m_TagString
+      value: BlockTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 114065144613744038, guid: 6df2195a005c18d478f782ec53cd3252,
+        type: 2}
+      propertyPath: JumpSpeed
+      value: 250
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6df2195a005c18d478f782ec53cd3252, type: 2}
   m_IsPrefabParent: 0
@@ -1100,14 +1114,9 @@ MonoBehaviour:
   MoveDiff: 0.05
   JumpDiff: 2
   TimeNoToSimulateRigid: 0
-  PCZ: {fileID: 0}
-  PCRZ: {fileID: 0}
-  PCT: {fileID: 0}
-  PC7: {fileID: 0}
-  PCR7: {fileID: 0}
-  PCSquare: {fileID: 0}
-  PCBar: {fileID: 0}
+  NotUpdateExecution: 0
   LstPlayerController: []
+  JumpSpeed: 0
 --- !u!60 &1781289727
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1152,8 +1161,8 @@ GameObject:
   - component: {fileID: 2105095731}
   - component: {fileID: 2105095730}
   m_Layer: 0
-  m_Name: Image4 (1)
-  m_TagString: Untagged
+  m_Name: Ground
+  m_TagString: GroundTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114140769343386960}
   m_Layer: 0
   m_Name: baseblock7
-  m_TagString: Untagged
+  m_TagString: BlockTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,21 +113,16 @@ MonoBehaviour:
   MoveDiff: 0.05
   JumpDiff: 2
   TimeNoToSimulateRigid: 2
-  PCZ: {fileID: 0}
-  PCRZ: {fileID: 0}
-  PCT: {fileID: 0}
-  PC7: {fileID: 0}
-  PCR7: {fileID: 0}
-  PCSquare: {fileID: 114140769343386960}
-  PCBar: {fileID: 0}
+  NotUpdateExecution: 0
   LstPlayerController:
   - {fileID: 1608737922461950}
   - {fileID: 1510867501206334, guid: c7a0cdf27a467d84e8498bef82dc1721, type: 2}
   - {fileID: 1982754004140164, guid: dafb294a50dca964b93c35dea4b69a3f, type: 2}
   - {fileID: 1390874575929724, guid: 8ca4bbe5716ecda46bb29ce5061c14f6, type: 2}
-  - {fileID: 0}
+  - {fileID: 1068305759639544, guid: 6df2195a005c18d478f782ec53cd3252, type: 2}
   - {fileID: 1494486557665390, guid: e14a8ed24e9d7ed4fabaa17cbc966ebd, type: 2}
   - {fileID: 1498908898279888, guid: c0262ef7ccc5966438f7b7dd6d4ed010, type: 2}
+  JumpSpeed: 250
 --- !u!212 &212133594234152210
 SpriteRenderer:
   m_ObjectHideFlags: 1
